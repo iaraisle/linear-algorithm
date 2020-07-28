@@ -1,8 +1,7 @@
-import sun.awt.geom.AreaOp;
-
-import java.util.Scanner;
 //1- Realice un diagrama de flujo y pseudocódigo que representen el algoritmo para
 // obtener el area de un triangulo.
+
+import java.util.Scanner;
 
 public class ExcersiceOneOne {
 
@@ -20,8 +19,8 @@ public class ExcersiceOneOne {
         System.out.print("Ingrese valor de la altura: ");
         altura = keyboard.nextDouble();
 
-        area = (base * altura) /2;
+        area = (base * altura) / 2;
 
-        System.out.println("El area del triangulo es " + String.format("%.2f",area));
+        System.out.println("El area del triangulo es " + String.format("%.2f", area));
     }
 }
