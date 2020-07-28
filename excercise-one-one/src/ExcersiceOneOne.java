@@ -1,6 +1,8 @@
 import sun.awt.geom.AreaOp;
 
 import java.util.Scanner;
+//1- Realice un diagrama de flujo y pseudocódigo que representen el algoritmo para
+// obtener el area de un triangulo.
 
 public class ExcersiceOneOne {
 
