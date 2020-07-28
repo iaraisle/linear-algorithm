@@ -8,18 +8,18 @@ public class ExcersiceOneOne {
 
         System.out.println("Aplicación para calcular el area de un triangulo rectangulo");
 
-        int base, altura, area;
+        double base, altura, area;
 
         Scanner keyboard = new Scanner(System.in);
 
         System.out.print("Ingrese el valor de la base: ");
-        base = keyboard.nextInt();
+        base = keyboard.nextDouble();
 
         System.out.print("Ingrese valor de la altura: ");
-        altura = keyboard.nextInt();
+        altura = keyboard.nextDouble();
 
         area = (base * altura) /2;
 
-        System.out.println("El area del triangulo es " + area);
+        System.out.println("El area del triangulo es " + String.format("%.2f",area));
     }
 }
