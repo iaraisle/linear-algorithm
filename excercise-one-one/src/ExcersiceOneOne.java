@@ -22,5 +22,6 @@ public class ExcersiceOneOne {
         area = (base * altura) / 2;
 
         System.out.println("El area del triangulo es " + String.format("%.2f", area));
+
     }
 }
