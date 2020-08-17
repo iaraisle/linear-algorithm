@@ -16,7 +16,7 @@ public class ExerciseTwo {
         mexicanPesos = keyboard.nextDouble();
 
         dollarAmount = mexicanPesos / DOLLAR_PRICE;
-        System.out.println(dollarAmount);
+        System.out.printf("Usted puede adquirir: %.2f dólares", dollarAmount);
 
     }
 }
