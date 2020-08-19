@@ -34,7 +34,7 @@ public class ExerciseFourteen {
         otherExpenses = amountDays * DAILY_AMOUNT;
         totalCost = totalHotel + totalFood + otherExpenses;
 
-        System.out.printf("El monto del cheque debe ser de $ %.2f", totalCost);
+        System.out.printf("El total de montos es: \nHotel $ %.2f \nComida $ %.2f \nGastos extras $ %.2f \nTotal $ %.2f", totalHotel, totalFood, otherExpenses, totalCost);
 
     }
 }
